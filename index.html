@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head><header>
+<body>
+    <div class="container">
+        <div class="logo">
+          <img src="logo.jpeg" alt="Logo" width="130"/>
+          </div>
+        <nav>
+          <ul>
+          <li><b>Home</b></li>
+          <li><b> <a href="services.html">Services</a> </b></li>
+          <li><b>Products</b></li>
+          <li><b>Clients</b></li>
+          </ul>
+          </nav>
+        </div>
+        <hr /></header>
+      <h1 class="sky"><b>Skylink Technologies</b></h1>
+
+      <!-- <form class="Contactform"
+      action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdFecCN_F5hBuGj6U65LkSVDvht9uqyl4eflSj4vLC6iyo6rg/formResponse"
+      target="_self" method="POST" id="mG61Hd" jsmodel="TOfxwf Q91hve" data-response="%.@.[]]" data-first-entry="0"
+      data-last-entry="4" data-is-first-page="true">
+      <label>Name </label>
+      <input type="text" name="entry.1335762676"><br><br>
+      <label>Phone Number</label>
+      <input type="tel" name="entry.155444669"><br><br>
+      <label>Email</label>
+      <input type="email" name="entry.2073496001"><br><br>
+      <label>Feedback</label>
+      <textarea name="entry.2055271177"></textarea><br><br>
+      <button class="submitbutton" type="submit">Send</button>
+  </form> -->
+
+
+
+  
+      <h3 class="dis">Skylink Technologies is a leading technology 
+        integrator specializing in helping clients reimagine operating models,<br>
+         enhance competitiveness, optimize costs, foster exceptional stakeholder experiences
+          and drive business transformation.</h3>
+
+          <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxvOOv_ar3nACb449apQMa6XQ3M0fgtORHDNfkCdG1jw8CX-TgKwCMCkL6bOH-JgSo9/exec'
+            const form = document.forms['contactform']
+            
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+              .then(response => console.log('Success!', response))
+              .catch(error => console.error('Error!', error.message))
+            })
+            </script>
+</body>
+</html>

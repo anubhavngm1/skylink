@@ -1,0 +1,17 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    background-image: url(src.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img{
+    background-repeat: no-repeat;
+    width:1300px;
+    height:100vh;
+}
+.our{
+    font-family: "Dancing Script",cursive;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+}
